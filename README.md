@@ -20,7 +20,8 @@ Users should be able to:
 
 - View the optimal layout for the app depending on their device's screen size
 - See hover states for all interactive elements on the page
-- Calculate the correct tip and total cost of the bill per person
+- See their own IP Address on the map on the initial page load
+- Search for any IP addresses or domains and see the key information and location
 
 ### Screenshot
 
@@ -28,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://silver-alpaca-1ad35b.netlify.app/](https://silver-alpaca-1ad35b.netlify.app/)
-- Solution URL: [https://github.com/gbopola/tip-calculator-project](https://github.com/gbopola/tip-calculator-project)
+- Live Site URL: [https://stupefied-montalcini-c982aa.netlify.app/](https://stupefied-montalcini-c982aa.netlify.app/)
+- Solution URL: [https://github.com/gbopola/ip-tracker-vanilla-js](https://github.com/gbopola/ip-tracker-vanilla-js)
 
 ## My process
 
@@ -38,9 +39,8 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- [React](https://reactjs.org/) - JS library
-- [Redux](https://redux.js.org/) - JS state management library
+- JavaScript
+- [LeafletJS](https://leafletjs.com/) - JS map library
 
 ## Author
 
