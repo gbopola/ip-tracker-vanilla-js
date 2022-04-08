@@ -41,6 +41,7 @@ Users should be able to:
 - Flexbox
 - JavaScript
 - [LeafletJS](https://leafletjs.com/) - JS map library
+- [Ip Geolocation API](https://geo.ipify.org/) - Geolocation API
 
 ## Author
 
