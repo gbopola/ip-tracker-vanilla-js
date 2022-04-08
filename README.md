@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-<img src="https://github.com/gbopola/tip-calculator-project/blob/master/screencapture-silver-alpaca-1ad35b-netlify-app-2022-04-08-12_28_30.png" width="800" />
+<img src="https://github.com/gbopola/ip-tracker-vanilla-js/blob/main/screencapture-stupefied-montalcini-c982aa-netlify-app-2022-04-08-13_01_17.png" width="800" />
 
 ### Links
 
