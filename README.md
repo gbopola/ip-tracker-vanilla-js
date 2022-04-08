@@ -1,6 +1,6 @@
 # Ip Tracker
 
-Ip Tracker App pinpoints the user ip address inputted by the user on an interactive app.
+Ip Tracker App pinpoints the ip address inputted by the user on an interactive app.
 
 ## Table of contents
 
@@ -41,6 +41,7 @@ Users should be able to:
 - Flexbox
 - JavaScript
 - [LeafletJS](https://leafletjs.com/) - JS map library
+- [Ip Geolocation API](https://geo.ipify.org/) - Geolocation API
 
 ## Author
 
