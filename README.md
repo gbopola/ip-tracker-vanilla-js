@@ -1,6 +1,6 @@
 # Ip Tracker
 
-Ip Tracker App pinpoints the user ip address inputted by the user on an interactive app.
+Ip Tracker App pinpoints the ip address inputted by the user on an interactive app.
 
 ## Table of contents
 
