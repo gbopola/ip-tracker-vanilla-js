@@ -4,15 +4,18 @@ let timezone = document.querySelector('#timezone');
 let isp = document.querySelector('#isp');
 let accessToken = 'pk.eyJ1IjoiZ2JvcG9sYSIsImEiOiJja2tjbjFjdW4wbGRiMnVvYTJzOHdqYThrIn0.kNIHZ1JR1SJbGEZFb205cQ';
 let array = [];
+const ipAddress = document.querySelector('#search').value;
 
-document.querySelector('.search-form').addEventListener('submit', function(e){
-    e.preventDefault();
+function SearchIp(e, ip){
+    if(e){
+        e.preventDefault();
+    }
     
     // key and ip address variables
     const key = 'at_i2aWTD38COX3urd2INjt8nvY6Sm3I';
-    const ipAddress = document.querySelector('#search').value;
+    
 
-    fetch(`https://geo.ipify.org/api/v1?apiKey=${key}&ipAddress=${ipAddress}`)
+    fetch(`https://geo.ipify.org/api/v1?apiKey=${key}&ipAddress=${ip ? ip: ''}`)
     .then((res) => res.json())
     .then((data) => {
         
@@ -49,16 +52,11 @@ document.querySelector('.search-form').addEventListener('submit', function(e){
          array = [];
 
     })
+}
 
+document.querySelector('.search-form').addEventListener('submit', (e, ip) => SearchIp(e, ipAddress));
+window.addEventListener('load', SearchIp)
  
-    
-        
-         
-
- 
-    
-
-});
 
  
 
