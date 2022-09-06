@@ -23,10 +23,6 @@ Users should be able to:
 - See their own IP Address on the map on the initial page load
 - Search for any IP addresses or domains and see the key information and location
 
-### Screenshot
-
-<img src="https://github.com/gbopola/ip-tracker-vanilla-js/blob/main/screencapture-stupefied-montalcini-c982aa-netlify-app-2022-04-08-13_01_17.png" width="800" />
-
 ### Links
 
 - Live Site URL: [https://stupefied-montalcini-c982aa.netlify.app/](https://stupefied-montalcini-c982aa.netlify.app/)
@@ -44,6 +40,4 @@ Users should be able to:
 - [Ip Geolocation API](https://geo.ipify.org/) - Geolocation API
 
 ## Author
-
-- Website - [opeafolabi.com](opeafolabi.com)
-- LinkedIn - [https://www.linkedin.com/in/ope-afolabi-150531138](https://www.linkedin.com/in/ope-afolabi-150531138)
+Ope Afolabi
