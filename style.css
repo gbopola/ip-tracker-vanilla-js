@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+.header {
+    background: url(./images/pattern-bg.png) center center/cover;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header h1 {
+    color: #FFF;
+    font-weight: 500;
+    padding: 2rem 0;
+    font-size: 2rem;
+}
+
+form {
+    width: 500px;
+    position: relative;
+}
+ 
+input[type="image"] {
+    background: black;
+    padding: 1.18rem;
+    position: absolute;
+    right: 0;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+input[type="text"] {
+    padding: 0.95rem;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    width: 100%;
+    font-size: 18px;
+}
+
+input[type="text"]::placeholder {
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+    font-size: 14px;
+}
+
+ 
+.location {
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 2px 20px 0px #00000038;
+    z-index: 100;
+    width: 80%;
+    margin: 0 auto;
+    position: absolute;
+    top: 13rem;
+    transform: translateX(12%);
+}
+
+.location p {
+    font-size: 12px;
+    color: hsl(0, 0%, 59%);
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.location h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+    color: hsl(0, 0%, 17%);
+}
+
+.location > div {
+    position: relative;
+    width: 25%;
+    padding: 0 0 0 2rem;
+    word-wrap:break-word;
+}
+
+.location > div:nth-child(1)::after,
+.location > div:nth-child(2)::after,
+.location > div:nth-child(3)::after {
+    content: '';
+    width: 1px;
+    height: 100%;
+    background-color: hsl(0deg 0% 59% / 30%);
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#map {
+    z-index: 0;
+    height: 520px;
+}
+
+@media(max-width: 820px) {
+    #map {
+        height: 100vh;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    .location {
+        width: 90%;
+        transform: translateX(5%);
+    }
+
+    .header {
+        height: 400px;
+    }
+    .location {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .location > div {
+        width: 100%;
+        margin: 1rem 0;
+        padding: 0;
+    }
+
+    .location > div:nth-child(1)::after,
+    .location > div:nth-child(2)::after,
+    .location > div:nth-child(3)::after {
+    display: none;
+}
+    
+}
+
+ 
+
+ 
